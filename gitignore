@@ -1,0 +1,41 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+/build/
+
+# Android specific
+android/.gradle/
+android/app/build/
+android/build/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+
+# iOS specific
+ios/Pods/
+ios/Podfile.lock
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework/
+
+# macOS specific
+macos/Pods/
+macos/Podfile.lock
+macos/Flutter/Flutter.framework/
+macos/Flutter/Flutter.podspec
+macos/Flutter/Generated.xcconfig
+macos/Flutter/App.framework/
+
+# Web specific
+web/packages/
+
+# Other
+.vscode/
+.idea/
+*.iml
+*.log
+.DS_Store

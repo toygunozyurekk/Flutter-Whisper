@@ -1,21 +1,20 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
-import 'chat_screen.dart';
+import 'screens/home_screen.dart';
 
-void main() => runApp(ChatApp());
+void main() {
+  runApp(MyApp());
+}
 
-class ChatApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ChatBot',
+      title: 'Chatbot App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        colorScheme: ColorScheme.fromSwatch().copyWith(
-          secondary: Colors.blueAccent, // previously known as accentColor
-        ),
       ),
-      home: ChatScreen(),
+      home: HomeScreen(),
     );
   }
 }
